@@ -1,0 +1,140 @@
+/* general */
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+    text-align: center;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'montsarrat-bold';
+}
+
+.container-fluid {
+    padding: 7% 10%;
+}
+
+.colored {
+    background-color: #ff4c48;
+    color: #fff;
+}
+.download-button {
+    margin: 5% 3%;
+}
+
+.white {
+    background-color: #fff;
+}
+
+/* nav-bar */
+.navbar.container-fluid {
+    padding: 3% 10%;
+}
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px 0 18px;
+}
+.nav-link{
+    font-family: 'montserrat-light';
+    font-size: 1.2rem;
+}
+
+
+/* 1st cont */
+#title {
+    text-align: left;
+}
+
+@media(max-width:1000px) {
+    #title {
+        text-align: center;
+        padding-bottom: 2%;
+    }
+}
+.hd1 {
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    font-family: 'Montserrat-Black';
+}
+.img{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 18%;
+    }
+@media(max-width:1000px){
+    .img{
+        width: 75%;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* features */
+#features{
+    position: relative;
+    
+}
+.col-lg-4{
+    line-height: 1.1rem;
+    margin-bottom: 5% 0;
+}
+.img2{
+    height: 100px;
+    width: 100px;
+    margin:10px 0 4%;
+}
+.img2:hover{
+    background-color: #f1d6da ;
+}
+
+.p1{
+    color: #8f8f8f;
+} 
+
+/* Testimonials */
+#testimonials{
+    background-color: #ec6664;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.img3{
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+.press-img{
+    width: 7%;
+    margin: 20px 20px;
+}
+.carousel-item{
+    padding: 8% 10%;
+}
+
+/* PRICING */
+.pricing-col{
+    padding: 4% 2% 0;
+}
+.h2style{
+    margin-top: 0.5rem;
+}
+.card-body1{
+    line-height: .75;
+    padding: 1rem;
+}
+ 
+/* fter */
+.container-fluid.ft{
+    padding: 1% 10%;
+    margin-top: 15px;
+}
+  .img4{
+    margin: 0.5rem;
+}
+.p2{
+    font-family: 'montsarrat-thin'
+}
